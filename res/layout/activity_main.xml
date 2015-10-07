@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="com.tumblr.pioggia.networkphonechecker.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_title"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:id="@+id/btndanhba"
+        android:text="@string/btn_danhda"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:layout_marginRight="5dp"
+        android:padding="10dp"
+        />
+
+    <Button android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:id="@+id/btnnhamang"
+        android:text="@string/btn_nhamang"
+        android:textColor="@android:color/white"
+        android:background="@color/blue"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"/>
+    </LinearLayout>
+
+	<TextView android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_kiemtra"
+        android:textColor="@android:color/white" />
+    
+	<EditText android:layout_marginTop="10dp"
+	    android:id="@+id/et_sdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="phone" />
+    
+	<TextView
+	    android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_hoac"
+        android:textColor="@android:color/white" />
+	
+	<Button android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnchondanhba"
+        android:text="@string/btn_chondanhba"
+        android:textColor="@android:color/white"
+        android:background="@color/pink"
+        android:padding="10dp"/>
+</LinearLayout>
