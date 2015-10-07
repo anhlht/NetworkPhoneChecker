@@ -43,16 +43,11 @@ public class MainActivity extends Activity {
 			if(resultCode == RESULT_OK)
 			{
 				Uri contactData = data.getData();
-//			//	CursorLoader cursorLoader = new CursorLoader(this, contactData, null, null, null, null);
 				Cursor cursor = getContentResolver().query(contactData, null, null, null, null);
-			
 				if (cursor.moveToFirst())
                 {
-				//	String id = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts._ID));
-				//	String name = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
-					//Log.d("Name", name);
                         String number = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
-                       Log.d("mainActivityResult", cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER) + "");
+                       // Log.d("mainActivityResult", cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER) + "");
                         etSDT.setText(number);
                 }
 				cursor.close();
