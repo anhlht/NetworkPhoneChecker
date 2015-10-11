@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">NetworkPhoneChecker</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-	<string name="activity_main_title">Kiểm tra nhà mạng thuê bao</string>
-	<string name="btn_danhda">Danh bạ</string>
-	<string name="btn_nhamang">Nhà mạng</string>
-	<string name="activity_main_kiemtra">Nhập số điện thoại cần kiểm tra</string>
-	<string name="activity_main_hoac">Hoặc</string>
-	<string name="btn_chondanhba">Chọn từ danh bạ</string>
+    <string name="activity_main_title">Kiểm tra nhà mạng thuê bao</string>
+    <string name="btn_danhda">Danh bạ</string>
+    <string name="btn_nhamang">Nhà mạng</string>
+    <string name="activity_main_kiemtra">Nhập số điện thoại cần kiểm tra</string>
+    <string name="activity_main_hoac">Hoặc</string>
+    <string name="btn_chondanhba">Chọn từ danh bạ</string>
+    <string name="activity_network_provider_list">Danh sách nhà mạng</string>
+    <string name="mobifoneLogo">Mobifone</string>
+    <string name="viettelLogo">Viettel</string>
+    <string name="vinaLogo">Vinaphone</string>
+    <string name="vietnamobileLogo">Vietnamobile</string>
+    <string name="gmobileLogo">G-Mobile</string>
+    <string name="sfoneLogo">S-Fone</string>
+    <string name="dienthoaicodinhLogo">Điện thoại cố định</string>
+<!--     <string name="title_activity_provider">ProviderActivity</string> -->
 </resources>
